@@ -1,0 +1,45 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    background-color: bisque;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 200px;
+}
+h1{
+    font-size: 60px;
+    color: hsl(209, 61%, 16%);
+}
+#number{
+    margin-top: -36px;
+    font-size: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: blue;
+}
+.buttons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: -44px;
+}
+.btn{
+    margin-right: 33px;
+    padding: 8px;
+    width: 163px;
+    background-color: blanchedalmond;
+    color: black;
+    border: 2px solid black;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: wheat;
+}
